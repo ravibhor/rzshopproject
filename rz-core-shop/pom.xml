@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.rz</groupId>
+		<artifactId>rzshop</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<groupId>com.rz.shop</groupId>
+	<artifactId>rz-core-shop</artifactId>
+	<packaging>jar</packaging>
+
+	<name>rz-core-shop</name>
+	<description>rz core shop module</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.rz.product</groupId>
+			<artifactId>rz-product-module</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.rz.shoppingcart</groupId>
+			<artifactId>rz-shopping-cart</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>

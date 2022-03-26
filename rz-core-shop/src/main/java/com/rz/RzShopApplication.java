@@ -14,6 +14,7 @@ public class RzShopApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RzShopApplication.class, args);
+		System.out.println("Application started........");
 	}
 
 	@Bean
